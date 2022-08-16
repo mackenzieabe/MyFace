@@ -75,7 +75,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+ 
+/*Combined three benefit classes into this sub-benefit class to consolidate */
 .sub-benefit {
     margin-bottom: 32px;
     color: #ffffff;
@@ -86,12 +87,13 @@ h3 {
     text-align: center;
 }
 
+/* All of these icon images were the same size so I put them all in the same class instead of all being separated*/ 
 .benefits-img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+ /*consolidated these classes since they mirrorred each other */
 .sub-hero {
     margin-bottom: 20px;
     padding: 50px;
@@ -100,7 +102,7 @@ h3 {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*combined the social-media-marketing image and the search-engine-optimzation image into this class*/
 .left-imgs {
     max-height: 200px;
     float: left;
